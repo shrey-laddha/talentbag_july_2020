@@ -1,0 +1,42 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Task 2</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+   <body>
+      
+         <h1>Drag and copy Boxes A,B,C & D into Boxes Y & Z </h1>
+            <table>
+             <div id="boxY" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondrop="return drop(event)" ondragover="return dragOver(event)">Drop here Y</div><br>
+             <div id="boxZ" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondrop="return drop(event)" ondragover="return dragOver(event)">Drop here Z</div><br>
+            </table>
+
+            <table class="table2">
+               <tr>
+               <td><div id="boxA" draggable="true" ondragstart="return dragStart(event)">
+               <p>Drag A</p>
+               </div>
+               </td>
+               <td>
+               <div id="boxB" draggable="true" ondragstart="return dragStart(event)">
+                  <p>Drag B</p>
+               </div>
+               </td>
+               <td>
+               <div id="boxC" draggable="true" ondragstart="return dragStart(event)">
+                  <p>Drag C</p>
+               </div>
+               </td>
+               <td>
+               <div id="boxD" draggable="true" ondragstart="return dragStart(event)">
+                  <p>Drag D</p>
+               </div>
+               </td>
+               </tr>
+            </table>
+        <script src="script.js"></script>
+   </body>
+</html>

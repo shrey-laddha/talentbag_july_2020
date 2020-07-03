@@ -1,0 +1,32 @@
+         h1{
+            text-align: center;
+         }
+         .table2{
+            display: inline-block;
+         }
+         #boxA, #boxC, #boxD, #boxB, #BoxY, #BoxZ{
+            float:left;
+            padding:10px;
+            margin:10px;
+         }
+         #boxA{ 
+            background-color: red; 
+            width:75px; 
+            height:75px;  }
+         #boxB{ 
+            background-color: yellow; 
+            width:75px; 
+            height:75px;  }
+         #boxC{ 
+            background-color: blue; 
+            width:75px; 
+            height:75px;  }
+         #boxD{ 
+            background-color: green; 
+            width:75px; 
+            height:75px;  }
+         #boxY, #boxZ{ 
+            background-color: magenta; 
+            width:95%; 
+            height:20%; 
+            text-align: center;}
